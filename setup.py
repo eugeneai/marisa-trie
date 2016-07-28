@@ -49,7 +49,7 @@ setup(name="marisa-trie",
       license=LICENSE,
       url="https://github.com/kmike/marisa-trie",
       classifiers=CLASSIFIERS,
-      libraries=[("libmarisa-trie", {
+      libraries=[("marisa", {
           "sources": MARISA_FILES,
           "include_dirs": [MARISA_DIR]
       })],
